@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CertMgr", "CertMgr\CertMgr.vcxproj", "{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{2DDE1C30-5FFE-41E4-B224-23A77387113E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Debug|x64.ActiveCfg = Debug|x64
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Debug|x64.Build.0 = Debug|x64
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Debug|x86.Build.0 = Debug|Win32
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Release|x64.ActiveCfg = Release|x64
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Release|x64.Build.0 = Release|x64
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Release|x86.ActiveCfg = Release|Win32
+		{0B058EC7-2260-48A7-9628-0CB34C0F2CFB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CAFD467-133B-4AFC-82CE-86F2EAB47C20}
+	EndGlobalSection
+EndGlobal
