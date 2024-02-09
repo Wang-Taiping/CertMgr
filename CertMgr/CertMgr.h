@@ -12,7 +12,7 @@
 
 #include <stdint.h>
 
-#define DEFINE_HANDLE(name)	struct name##__ { int unused; }; typedef name##__ *name
+#define DEFINE_HANDLE(name)	struct __##name { int unused; }; typedef __##name *name
 
 #ifdef __cplusplus
 
